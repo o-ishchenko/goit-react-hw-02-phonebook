@@ -1,0 +1,17 @@
+.list {
+  width: 400px;
+  list-style: none;
+  padding: 0 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item > h3,
+.item > p {
+  margin: 5px 0;
+}
